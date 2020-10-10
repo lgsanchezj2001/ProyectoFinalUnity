@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: a2a9d135d9b374741bd083eb65545006
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8921439274312421048
+    second: tubos_0
+  - first:
+      213: -3196546781264536653
+    second: tubos_1
+  - first:
+      213: 6398777428148010670
+    second: tubos_2
+  - first:
+      213: -6028161366925456185
+    second: tubos_3
+  - first:
+      213: 1651110968794551631
+    second: tubos_4
+  - first:
+      213: 4908768325686257383
+    second: tubos_5
+  - first:
+      213: 3870491723129280650
+    second: tubos_6
+  - first:
+      213: -5717887317703456454
+    second: tubos_7
+  - first:
+      213: 5178253493177566958
+    second: tubos_8
+  - first:
+      213: -3855359366985345225
+    second: tubos_9
+  - first:
+      213: -5032936967152092516
+    second: tubos_10
+  - first:
+      213: -6345377194487440607
+    second: tubos_11
+  - first:
+      213: -7964997138211336333
+    second: tubos_12
+  - first:
+      213: 6532652145962584876
+    second: tubos_13
+  - first:
+      213: -674182691075507965
+    second: tubos_14
+  - first:
+      213: -7641651981740149123
+    second: tubos_15
+  - first:
+      213: -6461076018181661503
+    second: tubos_16
+  - first:
+      213: 1957820744901430210
+    second: tubos_17
+  - first:
+      213: -7295332356326991584
+    second: tubos_18
+  - first:
+      213: 7084120337956709289
+    second: tubos_19
+  - first:
+      213: 584314170776875886
+    second: tubos_20
+  - first:
+      213: -5371563362122063804
+    second: tubos_21
+  - first:
+      213: -715105946471424783
+    second: tubos_22
+  - first:
+      213: -4489407439041580503
+    second: tubos_23
+  - first:
+      213: -4670779820878819929
+    second: tubos_24
+  - first:
+      213: -5638912637856840377
+    second: tubos_25
+  - first:
+      213: -8258840813949552275
+    second: tubos_26
+  - first:
+      213: -2418110548185263508
+    second: tubos_27
+  - first:
+      213: 2949465890877232731
+    second: tubos_28
+  - first:
+      213: 7229496639870133075
+    second: tubos_29
+  - first:
+      213: 1459785122069891190
+    second: tubos_30
+  - first:
+      213: 514101952132855007
+    second: tubos_31
+  - first:
+      213: -1051020072213792123
+    second: tubos_32
+  - first:
+      213: -2547748708448588012
+    second: tubos_33
+  - first:
+      213: 2282047903645580550
+    second: tubos_34
+  - first:
+      213: 5023755300316883498
+    second: tubos_35
+  - first:
+      213: -3309419985463981829
+    second: tubos_36
+  - first:
+      213: -5793779824911445009
+    second: tubos_37
+  - first:
+      213: 9008858609483396161
+    second: tubos_38
+  - first:
+      213: 605352433821832769
+    second: tubos_39
+  - first:
+      213: 6726229305414635418
+    second: tubos_40
+  - first:
+      213: -1123279083648967366
+    second: tubos_41
+  - first:
+      213: 5474711002518775258
+    second: tubos_42
+  - first:
+      213: 3578343247576856660
+    second: tubos_43
+  - first:
+      213: -6342449079140524457
+    second: tubos_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tubos_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841b3617f3ea03480800000000000000
+      internalID: -8921439274312421048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb1fc273a593a3d0800000000000000
+      internalID: -3196546781264536653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaebc813b260dc850800000000000000
+      internalID: 6398777428148010670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cccca3ec2ba75ca0800000000000000
+      internalID: -6028161366925456185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4510cb9dace9e610800000000000000
+      internalID: 1651110968794551631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6e731d8c27f1440800000000000000
+      internalID: 4908768325686257383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 39
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39039a77cbf5a0b0800000000000000
+      internalID: -5717887317703456454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 39
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5604696, y: 0.5302353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee646c1dd1adcd740800000000000000
+      internalID: 5178253493177566958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ab7f77e7a672ab0800000000000000
+      internalID: -5032936967152092516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b16b49f01b0f7a0800000000000000
+      internalID: -6345377194487440607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_12
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f09eb9d45a67190800000000000000
+      internalID: -7964997138211336333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3093ab81a62d4a6f0800000000000000
+      internalID: -674182691075507965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76f733820663f590800000000000000
+      internalID: -7641651981740149123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc9c7df795a556a0800000000000000
+      internalID: -6461076018181661503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_17
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb8db138939b2b10800000000000000
+      internalID: 1957820744901430210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3a7020ae9df4260800000000000000
+      internalID: 7084120337956709289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4402638f49f5475b0800000000000000
+      internalID: -5371563362122063804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc1dc33eee6316f0800000000000000
+      internalID: -715105946471424783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_23
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9223ee758bb62b1c0800000000000000
+      internalID: -4489407439041580503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad8470ff7e0e2fb0800000000000000
+      internalID: -4670779820878819929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_26
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69f9047904b26d80800000000000000
+      internalID: -8258840813949552275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_31
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4b63b6005722700800000000000000
+      internalID: 514101952132855007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d38314a767baf10800000000000000
+      internalID: 2282047903645580550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tubos_35
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 5
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aafd124d6f7b540800000000000000
+      internalID: 5023755300316883498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
