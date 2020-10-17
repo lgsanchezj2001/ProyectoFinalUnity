@@ -38,14 +38,14 @@ public class MoviminetoTortuga : MonoBehaviour
         float dist = Vector3.Distance(player.transform.position, transform.position);
         if (dist < visionRadius) target = player.transform.position;
 
-        float fixedSpeed = maxSpeed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
+        float fixedSpeed = 4 * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, target,fixedSpeed);
     }
 
     private void FixedUpdate()
     {
+    
         rb.AddForce(ForceDirection(transform.localScale.x) * horizontalForce, ForceMode2D.Force);
-
         LimitVelocity();
     }
 
