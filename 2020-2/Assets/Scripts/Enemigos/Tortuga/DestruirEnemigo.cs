@@ -12,3 +12,4 @@ public class DestruirEnemigo : MonoBehaviour
         }
     }
 }
+/*Codigo para destruir al enemigo*/

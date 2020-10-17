@@ -1,10 +1,16 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using UnityEngine;
 
 public class MoviminetoTortuga : MonoBehaviour
 {
+    public float visionRadius;
+
+    GameObject player;
+    Vector3 InitialPosition;
+    
     [Header("Movement")]
     public float maxSpeed;
     public float horizontalForce;
@@ -16,12 +22,24 @@ public class MoviminetoTortuga : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
+
+        InitialPosition = transform.position;
+
+        Vector3 target = InitialPosition;
+
+        float dist = Vector3.Distance(player.transform.position, transform.position);
+        if (dist < visionRadius) target = player.transform.position;
+
+        float fixedSpeed = maxSpeed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
     }
 
     private void FixedUpdate()
@@ -47,5 +65,11 @@ public class MoviminetoTortuga : MonoBehaviour
             vector = Vector2.right;
 
         return vector;
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, visionRadius);
     }
 }
