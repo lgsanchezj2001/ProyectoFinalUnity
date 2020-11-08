@@ -2398,7 +2398,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630891722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.7, y: 9.86, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5193,7 +5193,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263817046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.7, y: 9.86, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -46116,7 +46116,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 5.166898
+      m_AnimationSpeed: 1.8315288
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 105, y: 5, z: 0}
@@ -46126,7 +46126,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 4.4297767
+      m_AnimationSpeed: 5.2763963
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 106, y: 5, z: 0}
@@ -46136,7 +46136,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 5.9131613
+      m_AnimationSpeed: 5.637407
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -47351,7 +47351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061963452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.7, y: 9.86, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 704055373}
