@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 66171446}
   - component: {fileID: 66171448}
   - component: {fileID: 66171447}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2448,7 +2448,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630891722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 5.94, y: -0.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2569,6 +2569,36 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1 &678402960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 678402961}
+  m_Layer: 0
+  m_Name: CheckPointR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &678402961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678402960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.25, y: -0.84, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1263817049}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &704055372
 GameObject:
   m_ObjectHideFlags: 3
@@ -2669,7 +2699,7 @@ GameObject:
   - component: {fileID: 794048040}
   - component: {fileID: 794048043}
   - component: {fileID: 794048042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Muerte
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
@@ -4826,9 +4856,9 @@ GameObject:
   m_Component:
   - component: {fileID: 878940993}
   - component: {fileID: 878940992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5452,9 +5482,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263817046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 5.94, y: -0.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1639753602}
+  - {fileID: 1474040697}
+  - {fileID: 678402961}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5471,6 +5504,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1263817047}
+  jumpSelector: 0
+  checkPoint:
+  - {fileID: 1639753602}
+  - {fileID: 678402961}
+  - {fileID: 1474040697}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  checkRadius:
+  - 0.01
+  - 0.01
 --- !u!50 &1263817051
 Rigidbody2D:
   serializedVersion: 4
@@ -5621,8 +5665,8 @@ GameObject:
   - component: {fileID: 1444245851}
   - component: {fileID: 1444245850}
   - component: {fileID: 1444245852}
-  m_Layer: 0
-  m_Name: Tilemap
+  m_Layer: 8
+  m_Name: Piso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46450,7 +46494,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 6.817896
+      m_AnimationSpeed: 9.774051
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 105, y: 5, z: 0}
@@ -46460,7 +46504,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 8.889459
+      m_AnimationSpeed: 6.959243
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 106, y: 5, z: 0}
@@ -46470,7 +46514,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 8.564632
+      m_AnimationSpeed: 6.679499
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
@@ -46809,6 +46853,36 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &1474040696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474040697}
+  m_Layer: 0
+  m_Name: CheckPointL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1474040697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474040696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.16, y: -0.83, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1263817049}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1476030312
 GameObject:
   m_ObjectHideFlags: 0
@@ -46957,7 +47031,7 @@ GameObject:
   - component: {fileID: 1541147041}
   - component: {fileID: 1541147040}
   - component: {fileID: 1541147039}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Resorte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47133,7 +47207,7 @@ GameObject:
   - component: {fileID: 1601303967}
   - component: {fileID: 1601303969}
   - component: {fileID: 1601303968}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MonedasMundo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47276,7 +47350,7 @@ GameObject:
   - component: {fileID: 1620931958}
   - component: {fileID: 1620931960}
   - component: {fileID: 1620931959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Resortes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47364,6 +47438,36 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1639753601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1639753602}
+  m_Layer: 0
+  m_Name: CheckCircle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1639753602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639753601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.87, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1263817049}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1681441504
 GameObject:
   m_ObjectHideFlags: 0
@@ -47742,7 +47846,7 @@ GameObject:
   - component: {fileID: 1995490957}
   - component: {fileID: 1995490959}
   - component: {fileID: 1995490958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Inicial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47923,7 +48027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2020223684}
   - component: {fileID: 2020223685}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Monedas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48017,7 +48121,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061963452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 5.94, y: -0.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 704055373}
