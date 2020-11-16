@@ -2408,9 +2408,9 @@ RectTransform:
   m_Father: {fileID: 1681441508}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -266, y: 149}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 21.830017, y: -24.997498}
   m_SizeDelta: {x: 43.660034, y: 49.994995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &383996177
@@ -6106,9 +6106,9 @@ RectTransform:
   m_Father: {fileID: 1681441508}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144.17, y: 149}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 145.8, y: -25.899994}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1364365613
@@ -47183,7 +47183,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 7.787526
+      m_AnimationSpeed: 4.4803233
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 105, y: 5, z: 0}
@@ -47193,7 +47193,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 5.54065
+      m_AnimationSpeed: 1.4470212
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 106, y: 5, z: 0}
@@ -47203,7 +47203,7 @@ Tilemap:
       - {fileID: -227970430106079354, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -5409966254580451459, guid: ea59d7226053a354a97d80116846d918, type: 3}
       - {fileID: -3721465067583631501, guid: ea59d7226053a354a97d80116846d918, type: 3}
-      m_AnimationSpeed: 4.552124
+      m_AnimationSpeed: 4.023172
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   m_TileAssetArray:
