@@ -101,6 +101,8 @@ public class Mario : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.CompareTag("Coins")){
             Destroy(other.gameObject);
+        }else if(other.gameObject.CompareTag("Finish")){
+            other.gameObject.GetComponent<Collider2D>().isTrigger = false;
         }
     }
 }
