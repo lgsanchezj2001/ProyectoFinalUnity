@@ -44,10 +44,9 @@ public class Mario : MonoBehaviour
         movy = Input.GetAxis("Vertical");
         jump = Input.GetButtonDown("Jump");
 
-        //UnityEngine.Debug.Log(jump);
         anim.SetFloat("Speedx", Mathf.Abs(movx+movy));
 
-    //Movimiento
+        //Movimiento
         if(movx < 0f){
             transform.localScale = new Vector3(-1f,1f,1f);
         }else{
@@ -71,6 +70,10 @@ public class Mario : MonoBehaviour
                 canjump = false;
             }
         }
+
+        if(canjump){
+             anim.SetBool("JumpAnim", false);
+        }
         
     }
 
@@ -80,6 +83,7 @@ public class Mario : MonoBehaviour
 
         if(jump){
             if(canjump || stateOfJumps > 0){
+                anim.SetBool("JumpAnim", true);
                 rb.AddForce(Vector2.up * jumpMultiplayer, ForceMode2D.Impulse);
                 stateOfJumps -= 1;
             }
@@ -92,5 +96,11 @@ public class Mario : MonoBehaviour
         raycastHits[1] = Physics2D.Raycast((Vector2)checkPoint[2].position,Vector2.down, checkRadius[1],layerMask);
 
         //UnityEngine.Debug.Log(collider);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.CompareTag("Coins")){
+            Destroy(other.gameObject);
+        }
     }
 }
