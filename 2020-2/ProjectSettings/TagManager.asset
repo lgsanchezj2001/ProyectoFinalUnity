@@ -7,7 +7,6 @@ TagManager:
   - Enemigo
   - Piso
   - Coins
-  - Canvas
   layers:
   - Default
   - TransparentFX
