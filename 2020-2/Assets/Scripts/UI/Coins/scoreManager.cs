@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 
 public class scoreManager : MonoBehaviour
 {
     public static scoreManager instance;
     public TextMeshProUGUI text;
-    public Text textOver, textWin;
     int score;
 
 
@@ -24,7 +22,5 @@ public class scoreManager : MonoBehaviour
     public void ChangeScore(int coinValue){
         score += coinValue;
         text.text = "X" + score.ToString();
-        textOver.text = "Puntaje : " + score.ToString();
-        textWin.text = "Puntaje : " + score.ToString();
     }
 }
