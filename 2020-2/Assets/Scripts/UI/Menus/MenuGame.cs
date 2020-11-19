@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuGame : MonoBehaviour
 {
     public void returnMainMenu(){
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 }

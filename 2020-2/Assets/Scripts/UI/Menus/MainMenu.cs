@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
  {
-     public Animator anim;
+    public Animator anim;
     public void playGame(){
         //Activar animacion
         anim.SetTrigger("Start");
