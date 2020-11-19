@@ -96,16 +96,13 @@ public class Mario : MonoBehaviour
         raycastHits[1] = Physics2D.Raycast((Vector2)checkPoint[2].position,Vector2.down, checkRadius[1],layerMask);
 
         //UnityEngine.Debug.Log(collider);
-         //UnityEngine.Debug.Log(collider);
-          //UnityEngine.Debug.Log(collider);
-           //UnityEngine.Debug.Log(collider);
-            //UnityEngine.Debug.Log(collider);
-            
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.CompareTag("Coins")){
             Destroy(other.gameObject);
+        }else if(other.gameObject.CompareTag("Finish")){
+            other.gameObject.GetComponent<Collider2D>().isTrigger = false;
         }
     }
 }

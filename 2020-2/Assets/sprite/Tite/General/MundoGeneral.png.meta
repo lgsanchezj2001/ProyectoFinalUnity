@@ -16683,9 +16683,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 178
-        y: 336
-        width: 16
-        height: 16
+        y: 337
+        width: 31
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -16695,27 +16695,6 @@ TextureImporter:
       bones: []
       spriteID: a5593145af9e8c730800000000000000
       internalID: 4019719928789833050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MundoGeneral_777
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 336
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8aab50ae8134dadd0800000000000000
-      internalID: -2473246846072014168
       vertices: []
       indices: 
       edges: []
@@ -21160,7 +21139,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -21181,7 +21160,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
