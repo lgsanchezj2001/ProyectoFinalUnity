@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: Piso Lava
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: 6301857293812323009, guid: 80e49bf03c75fa74e95a6c70338caa40, type: 3}
+  - {fileID: 536411739181603900, guid: 80e49bf03c75fa74e95a6c70338caa40, type: 3}
+  - {fileID: 8024043546484715147, guid: 80e49bf03c75fa74e95a6c70338caa40, type: 3}
+  - {fileID: 536411739181603900, guid: 80e49bf03c75fa74e95a6c70338caa40, type: 3}
+  - {fileID: 6301857293812323009, guid: 80e49bf03c75fa74e95a6c70338caa40, type: 3}
   m_MinSpeed: 1
-  m_MaxSpeed: 1
+  m_MaxSpeed: 10
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
-  m_TileColliderType: 0
+  m_TileColliderType: 2

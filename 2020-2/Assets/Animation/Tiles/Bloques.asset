@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: Bloques
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: 7828603867730087683, guid: ea59d7226053a354a97d80116846d918, type: 3}
+  - {fileID: -2172192563175288652, guid: ea59d7226053a354a97d80116846d918, type: 3}
+  - {fileID: -7083859533482614349, guid: ea59d7226053a354a97d80116846d918, type: 3}
+  - {fileID: 7151244006351828149, guid: ea59d7226053a354a97d80116846d918, type: 3}
+  - {fileID: 7828603867730087683, guid: ea59d7226053a354a97d80116846d918, type: 3}
   m_MinSpeed: 1
-  m_MaxSpeed: 1
+  m_MaxSpeed: 10
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
-  m_TileColliderType: 0
+  m_TileColliderType: 2
