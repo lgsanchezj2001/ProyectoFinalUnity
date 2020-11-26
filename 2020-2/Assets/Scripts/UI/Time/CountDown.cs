@@ -38,9 +38,9 @@ public class CountDown : MonoBehaviour
 
         if(text.text == "0"){
             anim.SetBool("MarioDead", true);
-            Debug.Log("Muerte");
             collider.isTrigger = true;
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, 5f);
+            
         }
       
     }

@@ -24,6 +24,8 @@ public class Mario : MonoBehaviour
     public LayerMask layerMask;
     public float[] checkRadius;
     private byte numOfJumps;
+    
+    [SerializeField] private AudioClip coins;
 
 
     // Start is called before the first frame update
@@ -100,6 +102,7 @@ public class Mario : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.CompareTag("Coins")){
+             AusioManager.p_Instance.PlaySFX(coins);
             Destroy(other.gameObject);
         }else if(other.gameObject.CompareTag("Finish")){
             other.gameObject.GetComponent<Collider2D>().isTrigger = false;
