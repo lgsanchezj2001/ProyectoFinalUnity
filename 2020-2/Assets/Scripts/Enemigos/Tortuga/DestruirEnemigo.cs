@@ -8,6 +8,7 @@ public class DestruirEnemigo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            Debug.Log("entro");
             Destroy(transform.root.gameObject);
         }
     }

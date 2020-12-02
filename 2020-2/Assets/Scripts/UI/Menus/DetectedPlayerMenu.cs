@@ -6,6 +6,9 @@ public class DetectedPlayerMenu : MonoBehaviour
 {
     public GameObject playerMenu,gameOver,gameWin,win,player;
     private bool isActive;
+    
+    [SerializeField] private AudioClip muerte;
+    [SerializeField] private AudioClip ganar;
 
     private void Start() {
         isActive = false;
@@ -41,9 +44,13 @@ public class DetectedPlayerMenu : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         if(option == 1){
+            AusioManager.p_Instance.StopMusic();
+            AusioManager.p_Instance.PlaySFX(muerte);
             gameOver.SetActive(true);
             Time.timeScale = 0f;
         }else if(option == 2){
+            AusioManager.p_Instance.StopMusic();
+            AusioManager.p_Instance.PlaySFX(ganar);
             gameWin.SetActive(true);
             Time.timeScale = 0f;
         }
